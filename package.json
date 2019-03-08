@@ -1,15 +1,21 @@
 {
-  "name": "viewer-app",
+  "name": "viewer-app-cordova",
+  "homepage": "./",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@bit/unfoldingword.resources.viewer": "0.1.4",
+    "cordova-ios": "^4.5.5",
+    "cordova-osx": "^4.0.2",
+    "cordova-plugin-whitelist": "1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && npm run mv-www && cordova build",
+    "mv-www": "mkdir -p www && mv -f ./build/* ./www/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -21,5 +27,14 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "cordova": {
+    "platforms": [
+      "ios",
+      "osx"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    }
+  }
 }
