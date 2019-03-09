@@ -34,7 +34,9 @@
       "osx"
     ],
     "plugins": {
-      "cordova-plugin-whitelist": {}
+      "cordova-plugin-whitelist": {
+        "PACKAGE_NAME": "com.unfoldingword.viewerapp"
+      }
     }
   }
 }
