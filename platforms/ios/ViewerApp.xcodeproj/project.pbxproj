@@ -210,7 +210,7 @@
 				LastUpgradeCheck = 510;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = VQV5872TNU;
+						DevelopmentTeam = 9M97QM3GPP;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -319,7 +319,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = VQV5872TNU;
+				DEVELOPMENT_TEAM = 9M97QM3GPP;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -329,6 +329,7 @@
 				INFOPLIST_FILE = "ViewerApp/ViewerApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.unfoldingword.viewerapp-ios";
 				PRODUCT_NAME = ViewerApp;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -347,7 +348,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = VQV5872TNU;
+				DEVELOPMENT_TEAM = 9M97QM3GPP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ViewerApp/ViewerApp-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
@@ -355,6 +356,7 @@
 				INFOPLIST_FILE = "ViewerApp/ViewerApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.unfoldingword.viewerapp-ios";
 				PRODUCT_NAME = ViewerApp;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
